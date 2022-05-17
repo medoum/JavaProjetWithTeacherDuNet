@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class ConsoleQuiz extends Quiz{
     Scanner clavier = new Scanner(System.in);
-    public ConsoleQuiz(int nbreQuestions) {
-        super(nbreQuestions);
+
+    public ConsoleQuiz(CaptalCityQuestionsGenerator generator) {
+        super(generator);
     }
+
 
     @Override
     public void displayMessage(String message) {

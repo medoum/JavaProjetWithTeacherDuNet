@@ -4,8 +4,9 @@ import javax.swing.*;
 
 public class GUIQuiz extends Quiz{
 
-    public GUIQuiz(int nbreQuestions) {
-        super(nbreQuestions);
+
+    public GUIQuiz(CaptalCityQuestionsGenerator generator) {
+        super(generator);
     }
 
     @Override
